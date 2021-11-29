@@ -1,0 +1,39 @@
+body {
+    color:whitesmoke;
+    background-color: orangered;
+    margin-top: 20px;
+    font-family: rubik;
+}
+
+.container {
+    padding: 40px;
+    margin: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 66px;
+}
+
+section input{
+    background-color: goldenrod;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section div img{
+    width: 62px;
+    color:gray
+}
+
+#pokedex {
+display: flex;
+grid-gap: 20px;
+padding-inline-start: 0;
+}
